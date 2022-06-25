@@ -1,0 +1,30 @@
+{
+  "name": "seppukujs",
+  "version": "1.0.0",
+  "description": "do something before pkill",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/geekhunger/seppukujs.git"
+  },
+  "keywords": [
+    "pkill",
+    "kill",
+    "process",
+    "nodejs",
+    "sig",
+    "sigterm",
+    "siginit",
+    "expressjs",
+    "nodejs"
+  ],
+  "author": "geekhunger <hallo@geekhunger.de>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/geekhunger/seppukujs/issues"
+  },
+  "homepage": "https://github.com/geekhunger/seppukujs#readme"
+}
