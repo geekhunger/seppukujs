@@ -1,6 +1,12 @@
-# How-To
+# Readme
 
-This module allows you to queue up tasks, that will be run in sequence, just before your application quits. You can use this to close alive database connections, stop active cronjobs or clean-up the memory before the process gets killed. However, you should not use async function calls or put off application termination, because your application is about to kill itself anyways. Perform mandatory tasks and be okay with it.^^
+This module allows you to queue up tasks, that will be run in sequence, just before your application quits. You can use this to close alive database connections, stop active cronjobs or clean-up the memory before the process gets killed.
+
+However, you should not use async function calls or put off application termination, because your application is about to kill itself anyways. Perform mandatory tasks and be okay with it.^^
+
+Why yet another one? Because I've tried a ton of them on NPM and none worked for my clustered PM2 setup.
+
+## How-To
 
 ```js
 const die = require("seppukujs")
